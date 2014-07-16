@@ -19,7 +19,7 @@ var webpackConfig = require('./webpack.config.js');
 if (gulp.env.production) {
   // we executed with a --production option
   webpackConfig.plugins = webpackConfig.plugins.concat(new webpack.optimize.UglifyJsPlugin());
-  webpackConfig.output.filename = "bundle-[hash].js";
+  webpackConfig.output.filename = "bundle.js";
 
 }
 
