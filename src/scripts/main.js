@@ -16,6 +16,7 @@ var actions = require('./actions');
 
 var flux = new Fluxxor.Flux(stores, actions);
 
+require('style-loader!bootstrap/dist/css/bootstrap.min.css');
 require('../styles/app.css');
 
 React.renderComponent(<App flux={flux} />, document.getElementById('react-root'));

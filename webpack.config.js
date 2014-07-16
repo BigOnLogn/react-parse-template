@@ -27,7 +27,12 @@ module.exports = {
       { test: /\.jpg/, loader: "url-loader?limit=10000&minetype=image/jpg" },
       { test: /\.png/, loader: "url-loader?limit=10000&minetype=image/png" },
       { test: /\.json$/, loader: "json-loader" },
-      { test: /\.js$/, loader: "jsx-loader" }
+      { test: /\.js$/, loader: "jsx-loader" },
+      // url and file -loader configs for bootstrap
+      { test: /\.woff$/,   loader: "url-loader?limit=10000&minetype=application/font-woff" },
+      { test: /\.ttf$/,    loader: "file-loader" },
+      { test: /\.eot$/,    loader: "file-loader" },
+      { test: /\.svg$/,    loader: "file-loader" }
     ],
     noParse: /\.min\.js/
   },

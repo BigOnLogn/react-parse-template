@@ -26,7 +26,7 @@ if (gulp.env.production) {
 var sassConfig = { includePaths: ['src/styles'] };
 httpPort = 3000;
 // paths to files in lib that should be copied to dist/assets/vendr
-vendorPaths = ['es5-shim/es5-sham.js', 'es5-shim/es5-shim.js', 'bootstrap/dist/css/bootstrap.css'];
+vendorPaths = ['es5-shim/es5-sham.js', 'es5-shim/es5-shim.js'];
 
 /**
  * Tasks

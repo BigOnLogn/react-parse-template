@@ -31,7 +31,9 @@
     "css-loader": "^0.6.12",
     "style-loader": "^0.6.3",
     "ampersand-router": "^1.0.1",
-    "lodash-node": "^2.4.1"
+    "lodash-node": "^2.4.1",
+    "file-loader": "^0.5.1",
+    "url-loader": "^0.5.5"
   },
   "license": "MIT"
 }
