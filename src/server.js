@@ -12,5 +12,5 @@ if ("production" === process.env.NODE_ENV) {
   });
 } else {
   console.error('not intended for dev use');
-  exit 1;
+  exit(1);
 }
